@@ -306,8 +306,8 @@
 // }
 
 // A-17
-// let Marks=81
-// switch (Marks) {
+// let Marks=101
+// switch (true) {
 //     case (Marks>100) :
 //         console.log("Invalid Marks")
 //         break;
