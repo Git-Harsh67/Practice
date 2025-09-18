@@ -89,3 +89,29 @@
 // console.log(name)
 // 
 // 
+
+
+//     var a = "3";
+//     var b = "8";
+    
+// /***********Do not change the code above 👆*******/
+// //Write your code on lines 7 - 9:
+// var c = (b-a)
+// a=b
+// b=(b-c)
+
+
+// /***********Do not change the code below 👇*******/
+
+//     console.log("a is " + a);
+//     console.log("b is " + b);
+
+// var message = "Hello"
+// var name = "Harsh"
+
+// console.log( message + " my name is "+ name);
+
+var message = "harsh arya gksdfhgkjhfg gghksdjhgd dfghdjklgd jgdfhgkls"
+var maxCharacter =  250 - message.length 
+
+console.log("You have written " + message.length + " characters, you have " + maxCharacter + " characters left." );
