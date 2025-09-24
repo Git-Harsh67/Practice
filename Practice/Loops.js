@@ -39,7 +39,6 @@
 // for ( let i = 1 ; i<=20 ; i++){
 //     if (i%2==0) {
 //         console.log(i);
-        
 //     }
 // }
 
@@ -75,4 +74,64 @@
 // let str="Java"
 //  for ( let i = 0 ; i <=3 ; i++){
 //      console.log(str[i]);
+// }
+ 
+// Q-7 Print numbers divisible by 5 from 1 to 50?
+
+// for ( let i = 1 ; i<=50 ; i++){
+//     if (i%5==0) {
+//         console.log(i);
+//     }
+// }
+
+// Q-8 Find the factorial of a number(5)?
+
+// let num = 1
+//  for ( let i = 1 ; i <=5 ; i++){
+//  num = num * i
 //  }
+// console.log(num);
+
+// Q-9 Print numbers from 1 to 10, but skip multiples of 3 ?
+
+// for ( let i = 1 ; i <=10 ; i++  ){
+//     if (i%3!==0){
+//  console.log(i);
+//     } 
+// }
+
+// Q-10 print numbers 1 to 100, but replace multiples of 3 with "Fizz" and 5 with "Buzz" ?
+ 
+// for ( let i = 1 ; i <=100 ; i++ ){
+//      if (i%3==0 && i%5==0){
+//  console.log("fizzBuzz");}
+
+//  else if(i%3==0 ){
+//     console.log("fizz");  
+// }  
+//  else if(i%5==0 ){
+//     console.log("Buzz");  
+// } 
+
+// else{
+//     console.log(i);  
+// }
+// }
+
+// Q-11 create an array of the first 10 square numbers?
+
+// let num = []
+// for (let i =1 ; i<=10 ; i++){
+//     const sq = i*i
+//     num.push(sq)  
+// }
+// console.log(num);
+
+// Q-12 Print the reverse of a string without using inbuilt functions ?
+// let str="Java"
+// let reverseStr= ""
+//  for ( let i = str.length - 1 ; i >=0 ; i--){
+//      reverseStr += str[i] 
+//     }
+//      console.log(reverseStr);
+     
