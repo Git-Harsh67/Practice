@@ -135,3 +135,70 @@
 //     }
 //      console.log(reverseStr);
      
+// Q-13a print the sum of even numbers from 1 to 50 ?
+
+//  let sum = 0
+// for ( let i = 1 ; i<=50 ; i++){
+//   if(i%2==0)
+//     sum +=i
+// }
+// console.log(sum);
+
+
+// Q-13a print the sum of odd numbers from 1 to 50 ?
+
+//  let sum = 0
+// for ( let i = 1 ; i<=50 ; i++){
+//   if(i%2==!0)
+//     sum +=i
+// }
+// console.log(sum);
+
+// Q-14 Print multiplication table of 7 in table format ?
+ 
+// let num = 7
+// for ( let i = 1 ; i<=10 ; i++){
+ 
+//     console.log(`${num} x ${i} = ${num*i}`);
+// }
+
+// Q-18 Create an array of the first 10 odd numbers ?
+
+// let array = []
+// for ( let i = 1 ; i<=20 ; i++){
+
+//  if (i%2!==0){
+//      array.push(i)
+//  }
+// }
+// console.log(array);
+
+// Q-19 find the Max. number in an array ?
+
+// let array= [1,20,5,3]
+
+// let maxNum = array[0]
+
+// for (let i = 0; i<array.length; i++){
+
+//   if(array[i] > maxNum ){
+//      maxNum=array[i]
+// }
+// }
+// console.log(maxNum);
+
+
+// Q-19a Find the sum of +ve number in an [2,9,-10,20,-6,19] ?
+
+// let array = [2,9,-10,20,-6,19]
+//  let sum = 0
+// for ( let i = 0 ; i<array.length ; i++){
+
+//     if(array[i] > 0) {
+// sum+=array[i]
+//     }
+
+// }
+// console.log(sum);
+
+// Q-19b Find the Palindrome string. 
