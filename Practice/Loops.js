@@ -202,3 +202,20 @@
 // console.log(sum);
 
 // Q-19b Find the Palindrome string. 
+ 
+let str = "maam"
+let firstChr= str[0]
+let lastChr= str[str.length-1]
+for(let i = 0; i<str.length; i++){
+    
+if(firstChr==lastChr  ){
+
+console.log("True");
+}
+else{
+console.log("False");
+}
+    
+}
+
+
