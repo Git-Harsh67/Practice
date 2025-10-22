@@ -1,3 +1,53 @@
+// 3 arrow function
+ 
+// const multiply = (val1, val2) => {
+//     return val1 + val2;
+
+
+// }
+// const multiply = (val1, val2) => val1 * val2; //------ implicit return
+// const mult = val1 => val1; //------ implicit return
+
+// console.log(multiply(2,2));
+// console.log(mult(2));
+
+
+// 4 iffe => immediate invoked function expresion
+// syntax => (function defintion) (function calling)
+
+// (function (){
+//     console.log("I'm iffe 1");   
+// })();
+
+// (() =>{
+//     console.log("I'm iffe 2");   
+// })();
+
+// (function (){
+//     console.log("I'm iffe 3");   
+// })();
+
+
+// Callback Function (function that will complete in  future)
+// high order function
+
+function welcome(username){
+    console.log("Welcome in the world of javasript", username);
+    
+}
+
+function highOrderFunc(params, callback){
+let i = 0;    
+while (i < 10000000) {
+    i++;
+}
+callback(params);
+}
+
+highOrderFunc("Uday", welcome);
+// welcome();
+
+//------------------------------------------------------------------------------------------------------------------------->
 // wap to find cube of any number?
 
 
@@ -45,18 +95,18 @@
 
 
 // 2
-function countVowels(str){
-    let vowels = "aeiouAEIOU"
-    let count = 0
+// function countVowels(str){
+//     let vowels = "aeiouAEIOU"
+//     let count = 0
 
-    for (let i = 0 ; i< str.length; i++){
-        if (vowels.includes(str[i]))
-            count++;
-    }
-}
-console.log(count);
+//     for (let i = 0 ; i< str.length; i++){
+//         if (vowels.includes(str[i]))
+//             count++;
+//     }
+// }
+// console.log(count);
 
-countVowels("harsh")
+// countVowels("harsh")
 
 // Q-4 Reverse a string without using built-in methods?
 
@@ -72,15 +122,15 @@ countVowels("harsh")
 
 // Q-5 Find the largest number in an array using function?
 
-function largestNumberInArray(array) {
-    let maxNum = array[0]
-    for (let i = 0; i < array.length; i++) {
-        if (array[i] > maxNum) {
-            maxNum = array[i]
-        }
-    }
-    console.log(maxNum);
-}
+// function largestNumberInArray(array) {
+//     let maxNum = array[0]
+//     for (let i = 0; i < array.length; i++) {
+//         if (array[i] > maxNum) {
+//             maxNum = array[i]
+//         }
+//     }
+//     console.log(maxNum);
+// }
 // largestNumberInArray([222,40,2,5])
 
 // Q-6 Find the negative number in an array using function?
@@ -131,17 +181,17 @@ function largestNumberInArray(array) {
 
 // Q-9 Create a function to count how many times a value appears in an array?
 
-function ValueCountOfArray(array){
-    let sum = 0
-    for( let i = 0 ; i<=array.length-1 ; i++){
+// function ValueCountOfArray(array){
+//     let sum = 0
+//     for( let i = 0 ; i<=array.length-1 ; i++){
 
-        if (array[i] === 2){
-            sum+=array[i].length 
-        }
-        console.log(sum);
-    }
-} 
-ValueCountOfArray([1,2,3,3,1,1,4,2,2,2])
+//         if (array[i] === 2){
+//             sum+=array[i].length 
+//         }
+//         console.log(sum);
+//     }
+// } 
+// ValueCountOfArray([1,2,3,3,1,1,4,2,2,2])
 //1=3
 //2=4
 //3=2

@@ -27,8 +27,50 @@
 // do-while loop
 
 // let i = 10
+
+//------------------------ Advanced Loops ------------------------------>
+
+// for-of loop
+
+// const object = "346253"
+// for (const element of object) {
+//     console.log(element);
+    
+// }
+
+// for-in loop
+
+// const object = {
+//     name: "Harsh",
+//     id : 1,
+// }
+
+const array = [ 1,2,3,4]
+// for (const key in object) {
+//   console.log(key);
+// }
+// for (const key in array) {
+//   console.log(key);
+// }
  
-//-----------------------LOOPS QUESTION-----------------------//
+// for-each loop
+// array.forEach((val, idx, array) => {
+//     console.log(val);
+//     console.log(idx);
+//     console.log(array);
+    
+// })
+
+// map method
+// const mapMethod = array.map((val, idx, array) =>{
+//      console.log(val);
+//      return val * 2
+// })
+// console.log(mapMethod);
+
+// filter method
+
+//-----------------------------LOOPS QUESTION----------------------------------//
 
 // Q-0 Print numbers from 1 to 10?
 //  for ( let i = 1 ; i <=10 ; i++){
@@ -203,19 +245,21 @@
 
 // Q-19b Find the Palindrome string. 
  
-let str = "maam"
-let firstChr= str[0]
-let lastChr= str[str.length-1]
-for(let i = 0; i<str.length; i++){
+// let str = "maam"
+// let firstChr= str[0]
+// let lastChr= str[str.length-1]
+// for(let i = 0; i<str.length; i++){
     
-if(firstChr==lastChr  ){
+// if(firstChr==lastChr  ){
 
-console.log("True");
-}
-else{
-console.log("False");
-}
+// console.log("True");
+// }
+// else{
+// console.log("False");
+// }
     
-}
+// }
 
 
+
+//----------------------------------------------------------------------------------------
